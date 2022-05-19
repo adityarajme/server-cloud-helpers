@@ -1,5 +1,5 @@
 server {
-    server_name reverse-proxy.com;
+    server_name nginx-reverse-proxy.com;
 
     location / {
         proxy_pass http://localhost:3010;

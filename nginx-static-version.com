@@ -1,7 +1,7 @@
 server {
-    server_name static-version.com;
+    server_name nginx-static-version.com;
 
-    root /var/www/static-version;
+    root /var/www/nginx-static-version;
     index index.html index.htm index.nginx-debian.html;
 
     location / {
